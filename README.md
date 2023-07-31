@@ -1,5 +1,4 @@
-Router Dashboard
-Project Logo
+#Router Dashboard
 
 Router Dashboard is a web application that provides a user-friendly interface to monitor and manage your TP-Link router. It allows you to view various statistics and settings related to your router, including the number of connected devices, internet connection status, network performance, wireless network settings, and security settings.
 
