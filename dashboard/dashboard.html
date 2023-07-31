@@ -1,0 +1,48 @@
+<!-- router_dashboard.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Router Dashboard</title>
+  <!-- Add your CSS and JS includes here... -->
+
+  <style>
+    body {
+      background-color: #1a1a1a;
+      color: #fff;
+      font-family: Arial, sans-serif;
+    }
+
+    h1 {
+      color: #00e6e6;
+    }
+
+    h2 {
+      color: #80ff80;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    li {
+      margin-bottom: 10px;
+    }
+
+    /* Customize other elements and styles as needed */
+  </style>
+</head>
+<body>
+  <h1>Router Dashboard</h1>
+  <h2>Connected Devices:</h2>
+  <ul>
+    {% for device in connected_devices %}
+      <li>{{ device }}</li>
+    {% empty %}
+      <li>No devices connected.</li>
+    {% endfor %}
+  </ul>
+  <!-- Add other sections and components for your dashboard here... -->
+</body>
+</html>
